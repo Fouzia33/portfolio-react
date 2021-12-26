@@ -1,9 +1,10 @@
 import React from 'react';
+import Navigation from '../components/Navigation';
 
 const NotFound = () => {
     return (
         <div>
-            NOT FOOOOUUUND!!!!
+            <Navigation />
         </div>
     );
 };
