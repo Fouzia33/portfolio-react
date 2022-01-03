@@ -29,7 +29,7 @@
   
         img {
           border-radius: 50%;
-          box-shadow: 0 0 0 4px $color-3, 0 0 0 8px $color-4, 0 0 0 12px $color-2;
+          box-shadow: 0 0 0 4px $color-5;
         }
         h3 {
           font-size: 1.3rem;
@@ -61,7 +61,7 @@
           color: $color-5;
           }
           .navActive {
-            color: $color-4;
+            color: $color-3;
           }
   
           i {
@@ -104,7 +104,7 @@
             padding: .5rem .75rem
           }
           &:hover {
-            background: $color-4;
+            background: $color-3;
           }
         }
       }

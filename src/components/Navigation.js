@@ -50,7 +50,6 @@ const Navigation = () => {
             {/* social network */}
             <div className="socialNetwork">
                 <ul>
-
                     <li>
                         <a href="https://www.linkedin.com/in/fouzia-hollande/" target="_blank" rel='noopener noreferrer' ><i className="fab fa-linkedin"></i></a>
                     </li>
@@ -62,11 +61,6 @@ const Navigation = () => {
                     <li>
                         <a href="https://twitter.com/home" target="_blank" rel='noopener noreferrer' ><i className="fab fa-twitter"></i></a>
                     </li>
-
-                    <li>
-                        <a href="https://www.google.com" target="_blank" rel='noopener noreferrer' ><i className="fab fa-codepen"></i></a>
-                    </li>
-
                 </ul>
 
                 {/* footer */}
@@ -74,9 +68,6 @@ const Navigation = () => {
                     <p>Copyright Fouzia Hollande</p>
                 </div>
             </div>
-
-
-        
         </div>
     );
 };

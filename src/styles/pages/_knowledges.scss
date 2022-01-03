@@ -12,7 +12,7 @@
       "O O H";
 
     .languagesFrameworks, .experience, .otherSkills, .hobbies {
-      background: $color-2;
+      background: $color-1;
       border-radius: $borderRadius;
       padding: .8rem;
     }
@@ -48,7 +48,7 @@
         font-size: .65rem;
         display: flex;
         justify-content: space-between;
-        color: $white;
+        color: $color-4;
 
         span {
           width: 36%;
@@ -140,10 +140,11 @@
     .otherSkills {
       grid-area: O;
       margin-right: 0.5rem;
+      background: $color-2;
 
       .list {
         display: flex;
-        width: 80%;
+        width: 85%;
         height: 100%;
         margin: 0 auto;
         justify-content: space-between;
@@ -154,6 +155,7 @@
 
           i {
             color: $color-5;
+            padding-right: 0.5rem;
           }
         }
       }

@@ -7,7 +7,7 @@ const Contact = () => {
         <div className='contact'>
             <Navigation />
             <div className="contactContent">
-                <div className="header">
+                <div className="header"></div>
                     <div className="contactBox">
                         <h1>Contactez-moi</h1>
                         <ul>
@@ -29,7 +29,7 @@ const Contact = () => {
                             </li>
 
                             <li>
-                                <i className='fas fa-enveloppe'></i>
+                                <i className='far fa-envelope'></i>
                                 <CopyToClipboard text='fouzia.hollande@gmail.com'>
                                     <span 
                                         className="clickInput"
@@ -42,11 +42,10 @@ const Contact = () => {
 
                         </ul>
                     </div>
-                </div>
+                
 
                 <div className="socialNetwork">
                 <ul>
-
                     <a href="https://www.linkedin.com/in/fouzia-hollande/" target="_blank" rel='noopener noreferrer'>
                         <h4>Linkedin</h4>
                         <i className="fab fa-linkedin"></i>
@@ -61,12 +60,6 @@ const Contact = () => {
                         <h4>Twitter</h4>
                         <i className="fab fa-twitter"></i>
                     </a>
-
-                    <a href="https://www.google.com" target="_blank" rel='noopener noreferrer'>
-                    <h4>Codepen</h4>
-                    <i className="fab fa-codepen"></i>
-                    </a>
-
                 </ul>
             </div>
         </div>
