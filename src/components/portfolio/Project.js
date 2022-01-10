@@ -12,7 +12,7 @@ export default class Project extends Component {
     }
 
     render() {
-        let { name, languagesIcons, source, info, picture } = this.props.item;
+        let { name, languagesIcons, source, info, picture, webSite } = this.props.item;
 
         return (
            <div className="project">
@@ -34,13 +34,15 @@ export default class Project extends Component {
                             <div className="head">
                                 <h2>{name}</h2>
                                 <span>{info}</span>
-                                <div className="sourceCode">
-                                    <a href={source} rel='noopener noreferrer' className='button' target="_blank">Code source</a>
+                                <div className="button sourceCode">
+                                    <a href={source} rel='noopener noreferrer' target="_blank">Code source</a>
                                 </div>
-                            </div>
-
-                            <div className="button return" on onClick={this.handleInfo}>
-                                Retourner sur la page
+                                 <div className="button webSite">
+                                <a href={webSite} rel='noopener noreferrer' target="_blank">Visiter</a>  
+                                </div>
+                                <div className="button return" on onClick={this.handleInfo}>
+                                    Retour
+                                </div>
                             </div>
                         </div>
                     </div>
