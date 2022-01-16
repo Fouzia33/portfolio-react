@@ -1,7 +1,7 @@
 export const portfolioData = [
   {
     id: 1,
-    name: 'mon-potager.surge.sh',
+    name: 'Mon potager',
     languages: ['javascript', 'css', 'react', 'wordpress'],
     languagesIcons: ['fab fa-js','fab fa-css3-alt','fab fa-wordpress','fab fa-react'],
     source: 'https://github.com/Fouzia33/mon-potager/tree/master',
@@ -11,22 +11,22 @@ export const portfolioData = [
   },
   {
     id: 2,
-    name: 'A venir',
+    name: 'Github api',
     languages: ['javascript','react'],
     languagesIcons: ['fab fa-js','fab fa-react'],
-    source: 'http://www.github.com',
-    webSite: '#',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
+    source: 'https://github.com/Fouzia33/github-api',
+    webSite: 'https://git-hub-api.surge.sh/',
+    info: 'Annuaire qui permet de faire une recherche dans tous les repos grâce à l\'API fourni par Github !',
     picture: './media/project2.JPG'
   },
   {
     id: 3,
-    name: 'A venir',
-    languages: ['javascript','php','css'],
-    languagesIcons: ['fab fa-js','fab fa-php','fab fa-css3-alt'],
-    source: 'http://www.github.com',
-    webSite: '#',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
+    name: 'Mon portfolio',
+    languages: ['javascript','react','css'],
+    languagesIcons: ['fab fa-js','fab fa-react','fab fa-css3-alt'],
+    source: 'https://github.com/Fouzia33/portfolio-react',
+    webSite: 'https://fouziahollande.fr/',
+    info: 'Mon portfolio <3',
     picture: './media/project3.JPG'
   },
   {
@@ -37,7 +37,7 @@ export const portfolioData = [
     source: 'http://www.github.com',
     webSite: '#',
     info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project4.JPG'
+    picture: './media/projectwip.JPG'
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ export const portfolioData = [
     source: 'http://www.github.com',
     webSite: '#',
     info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project5.JPG'
+    picture: './media/projectwip.JPG'
   },
   {
     id: 6,
@@ -57,6 +57,6 @@ export const portfolioData = [
     source: 'http://www.github.com',
     webSite: '#',
     info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project6.JPG'
+    picture: './media/projectwip.JPG'
   },
 ]

@@ -120,7 +120,7 @@
         font-family: $font-2;
         font-size: 1.65rem;
         @include verticalCenter;
-        justify-content: left;
+        justify-content: center;
         color: $color-5;
       }
       img {
@@ -203,12 +203,18 @@
           text-align: justify;
           padding-bottom: 1rem;
         }
-        .return, .sourceCode, .webSite {
+        .sourceCode, .webSite {
           margin: 1.5rem auto;
           width: 150px;
           a {
             color: whitesmoke;
           }
+        }
+        .return {
+          background-color: $color-2;
+          color: $black;
+          width: 70px;
+          
         }
       }
     }

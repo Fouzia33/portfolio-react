@@ -41,7 +41,7 @@ export default class Project extends Component {
                                 <a href={webSite} rel='noopener noreferrer' target="_blank">Visiter</a>  
                                 </div>
                                 <div className="button return" on onClick={this.handleInfo}>
-                                    Retour
+                                    <i class="fas fa-undo"></i>
                                 </div>
                             </div>
                         </div>
