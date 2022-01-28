@@ -36,7 +36,7 @@
         text-transform: uppercase;
         letter-spacing: .2rem;
         margin-top: 1.5rem;
-        color: $color-5;
+        color: $black;
       }
     }
   }
@@ -58,7 +58,7 @@
         }
 
         a {
-        color: $color-5;
+        color: $black;
         }
         .navActive {
           color: $color-4;
@@ -87,7 +87,7 @@
 
       li {
         font-size: 1.5rem;
-        background: $color-5;
+        background: $black;
         color: $color-1;
         border-radius: 50%;
         padding: .5rem 0.8rem;
@@ -115,7 +115,7 @@
       font-size: .7rem;
 
       a, a:visited {
-        color: $color-5;
+        color: $black;
 
         &:hover {
           color: $color-4;

@@ -22,7 +22,7 @@
       box-shadow: $shadow;
   
       li {
-        color: $color-5;
+        color: $black;
         font-size: 1.1rem;
         text-transform: uppercase;
         padding: 0 1rem;
@@ -121,7 +121,7 @@
         font-size: 1.65rem;
         @include verticalCenter;
         justify-content: center;
-        color: $color-5;
+        color: $black;
       }
       img {
         grid-area: 3;
@@ -162,7 +162,7 @@
           top: 25%;
           width: 600px;
           margin: 0 auto;
-          color: $color-5;
+          color: $black;
           background: $color-1;
           border-radius: $borderRadius;
           padding: 2rem;
@@ -190,7 +190,7 @@
         .button {
           cursor: pointer;
           color: $color-1;
-          background: $color-5;
+          background: $black;
           border-radius: $borderRadius;
           padding: 1rem;
           transition: .2s;

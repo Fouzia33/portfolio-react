@@ -16,8 +16,8 @@
       grid-area: 1;
       width: 100%;
       position: relative;
-      background: $color-2;
-      height: 340px;
+      background: $color-1;
+      height: 370px;
   
       &:before {
         content: '';
@@ -37,7 +37,7 @@
     }
     .contactBox {
       grid-area: 2;
-      background: $color-5;
+      background: $color-4;
       margin: 0 auto;
       padding: 1rem 3rem;
       z-index: 2;
@@ -51,7 +51,7 @@
         text-align: center;
         margin-top: 0.3rem;
         position: relative;
-        color: $color-2;
+        color: $color-1;
   
         &:after {
           content: '';
@@ -109,7 +109,7 @@
         a {
           width: 20%;
           font-size: 1.2rem;
-          background: $color-5;
+          background: $color-4;
           border-radius: $borderRadius;
           display: inline-block;
           padding: 0.7rem 0;
@@ -121,7 +121,7 @@
           color: $color-1;
           font-weight: 100;
           &:hover {
-            background: $color-4;
+            background: $black;
           }
   
           i {

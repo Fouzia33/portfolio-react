@@ -20,7 +20,7 @@
       font-size: 1.4rem;
       margin-bottom: 1rem;
       font-family: $font-2;
-      color: $color-5;
+      color: $black;
       text-transform: uppercase;
     }
 
@@ -120,7 +120,7 @@
       }
       h4 {
         font-size: 1.1rem;
-        color: $color-5;
+        color: $black;
       }
       h5 {
         color: $color-3;
@@ -140,7 +140,12 @@
     .otherSkills {
       grid-area: O;
       margin-right: 0.5rem;
-      background: $color-2;
+      background: $color-4;
+      color: $color-1;
+
+      h3 {
+        color: $color-1;
+      }
 
       .list {
         display: flex;
@@ -154,7 +159,7 @@
           display: grid;
 
           i {
-            color: $color-5;
+            color: $color-1;
             padding-right: 0.5rem;
           }
         }
@@ -171,7 +176,7 @@
         li {
           i {
             position: absolute;
-            color: $color-5;
+            color: $black;
           }
           span {
             position: absolute;

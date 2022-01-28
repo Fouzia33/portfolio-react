@@ -38,7 +38,7 @@
   }
   .contactBox {
     grid-area: 2;
-    background: $color-5;
+    background: $black;
     margin: 0 auto;
     padding: 1rem 3rem;
     z-index: 2;
@@ -110,7 +110,7 @@
       a {
         width: 20%;
         font-size: 1.2rem;
-        background: $color-5;
+        background: $black;
         border-radius: $borderRadius;
         display: inline-block;
         padding: 0.7rem 0;
