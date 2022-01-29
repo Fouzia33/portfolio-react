@@ -21,7 +21,7 @@ const Contact = () => {
                                 <CopyToClipboard text='0671834673'>
                                     <span 
                                         className="clickInput"
-                                        onClick={() => { alert('Téléphone copié!');}}
+                                        onClick={() => window.location = 'tel:+33671834673'}
                                     >
                                         06 71 83 46 73    
                                     </span>   
