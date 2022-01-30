@@ -1,5 +1,4 @@
-import React from 'react';
-
+import React  from 'react';
 import Navigation from '../components/Navigation';
 
 const Home = () => {
@@ -14,7 +13,7 @@ const Home = () => {
                     <div className="pdf">
                         <a href="./media/CV.pdf" target="_blank">Télécharger CV</a>
                     </div>
-                </div>  
+                </div>   
             </div>
         </div>
     );

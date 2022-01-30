@@ -1,6 +1,5 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
-import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 const Contact = () => {
     return (
@@ -18,14 +17,12 @@ const Contact = () => {
 
                             <li>
                                 <i className='fas fa-mobile-alt'></i>
-                                <CopyToClipboard text='0671834673'>
-                                    <span 
-                                        className="clickInput"
-                                        onClick={() => { alert('Téléphone copié!');}}
-                                    >
-                                        06 71 83 46 73    
-                                    </span>   
-                                </CopyToClipboard>                               
+                                <span 
+                                    className="clickInput"
+                                    onClick={() => window.location = 'tel:+33671834673'}
+                                >
+                                    06 71 83 46 73    
+                                </span>                               
                             </li>
 
                             <li>
