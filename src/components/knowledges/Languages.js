@@ -13,7 +13,8 @@ class Languages extends Component {
             {id: 1, value: "React", xp:1},
             {id: 2, value: "jQuery", xp:0.3},
             {id: 3, value: "Wordpress", xp:1},
-            {id: 4, value: "Lumen", xp:1}
+            {id: 4, value: "CodeIgniter", xp:0.3},
+            {id: 4, value: "Dolibarr", xp:0.3},
         ]
     }
 

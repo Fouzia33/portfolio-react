@@ -7,7 +7,7 @@ export default class ProjectList extends Component {
         projects:portfolioData,
         radios: [
             {id: 1, value: "javascript"},
-            {id: 1, value: "css"},
+            {id: 1, value: "scss"},
             {id: 1, value: "php"},
             {id: 1, value: "react"},
         ],
