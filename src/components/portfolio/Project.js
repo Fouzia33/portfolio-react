@@ -34,12 +34,17 @@ export default class Project extends Component {
                             <div className="head">
                                 <h2>{name}</h2>
                                 <span>{info}</span>
+                                {source !== '' && 
                                 <div className="button sourceCode">
                                     <a href={source} rel='noopener noreferrer' target="_blank">Code source</a>
                                 </div>
+                                }
+                                 {webSite !== '' && 
                                  <div className="button webSite">
-                                <a href={webSite} rel='noopener noreferrer' target="_blank">Visiter</a>  
-                                </div>
+                                 <a href={webSite} rel='noopener noreferrer' target="_blank">Visiter</a> 
+                                 </div>
+                                }
+                               
                                 <div className="button return" on onClick={this.handleInfo}>
                                     <i class="fas fa-undo"></i>
                                 </div>

@@ -3,6 +3,7 @@
     color: $color-1;
     border-radius: $borderRadius;
     width: 100%;
+    min-height: $minHeight;
     overflow: hidden;
     display: grid;
     grid-template-columns: 1fr;

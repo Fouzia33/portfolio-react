@@ -34,9 +34,9 @@ export const portfolioData = [
     name: 'A venir',
     languages: ['javascript','php','react'],
     languagesIcons: ['fab fa-js','fab fa-php','fab fa-react'],
-    source: 'http://www.github.com',
-    webSite: '#',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
+    source: '',
+    webSite: '',
+    info: 'Work In Progress.',
     picture: './media/projectwip.JPG'
   },
   {
@@ -44,9 +44,9 @@ export const portfolioData = [
     name: 'A venir',
     languages: ['javascript','scss'],
     languagesIcons: ['fab fa-js', 'fa-brands fa-sass'],
-    source: 'http://www.github.com',
-    webSite: '#',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
+    source: '',
+    webSite: '',
+    info: 'Work In Progress.',
     picture: './media/projectwip.JPG'
   },
   {
@@ -54,9 +54,9 @@ export const portfolioData = [
     name: 'A venir',
     languages: ['javascript','react', 'scss'],
     languagesIcons: ['fab fa-js','fab fa-react','fa-brands fa-sass'],
-    source: 'http://www.github.com',
-    webSite: '#',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
+    source: '',
+    webSite: '',
+    info: 'Work In Progress.',
     picture: './media/projectwip.JPG'
   },
 ]
